@@ -1,0 +1,145 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    background: rgb(207, 39, 112);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid white;
+}
+
+.wrapper>h1{
+    text-transform: uppercase;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+
+.container{
+    height: 70%;
+    width: 30%;
+    /* border: 1px solid white; */
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+
+
+.password-contaianer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    border: 1px solid green;
+    background: rgb(53, 184, 193);
+    border-radius: 5px;
+    padding: 6px 20px;
+}
+
+.password-contaianer>input{
+    height: 30px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: rgb(190, 35, 35);
+}
+
+.password-contaianer>input:focus{
+    outline: none;
+}
+
+
+.password-contaianer>i{
+    color: green;
+    
+}
+
+
+.password-length{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    /* border: 1px solid rgb(251, 243, 243); */
+    border-radius: 5px;
+    padding: 6px 20px;
+    color: white;
+    background: rgb(53, 184, 193);
+
+}
+
+
+.length-dragger{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    /* border: 1px solid rgb(251, 243, 243); */
+    border-radius: 5px;
+    padding: 6px 20px;
+    color: white;
+    background: rgb(53, 184, 193); 
+}
+
+
+.password-option{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    /* align-items: center; */
+    border: 1px solid white;
+    width: 80%;
+    border-radius: 5px;
+    gap: 5px;
+    padding: 10px;
+
+}
+
+.option{
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
+     height: 30px;
+    border: 1px solid white;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: white;    
+}
+
+
+.strength{
+
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    width: 80%;
+    border: 1px solid white;
+    padding: 0 20px;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+}
+
+button{
+   width: 80%;
+  
+   height: 30px;
+   border-radius: 5px;
+   background: rgb(53, 184, 193);
+   outline: none;
+   border: none;
+}
